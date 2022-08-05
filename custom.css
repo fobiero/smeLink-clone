@@ -20,3 +20,37 @@ body {
     scroll-behavior: smooth;
 }
 
+.navbar {
+    background-color: #fff;
+    padding: .5rem 0;
+}
+
+.nav-item {
+    font-size: 16px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+.nav-link {
+    color: var(--pri-color) !important;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.register {
+    border-radius: 5rem;
+    color: #fff;
+    background-color: var(--pri-color);
+    padding: .75rem 2rem;
+    text-decoration: none;
+}
+.register::after {
+    margin-left: .5rem;
+    content: "register";
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: .15rem;
+}
+
+.register:hover {
+    color: #fff;
+}
