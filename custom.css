@@ -12,7 +12,6 @@
     --banner-color:#EBF2F6;
     --tle-color:#010101;
     --btn-sec-color:#D8FFFF;
-    --link-color:#007bff;
 }
 
 body {
@@ -28,12 +27,12 @@ body {
 .nav-item {
     font-size: 16px;
     letter-spacing: .1rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 .nav-link {
     color: var(--pri-color) !important;
     text-transform: capitalize;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .register {
@@ -52,5 +51,45 @@ body {
 }
 
 .register:hover {
+    color: #fff;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    max-height: 800px;
+    padding: 10rem 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./assets/bg-1.svg');
+}
+
+.hd-intro {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.btn-reg {
+    padding: 1rem 4rem;
+    border: none;
+    outline: none;
+}
+
+.btn-reg a {
+    color: var(--pri-color);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#btnReg {
+    background-color: var(--pri-color);
+}
+
+#btnReg a {
     color: #fff;
 }
